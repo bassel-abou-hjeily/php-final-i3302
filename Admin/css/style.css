@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.AdminLanding {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    background: white;
+}
+
+.AdminLanding .container_content{
+    width: 100%;
+    display: flex;
+    position: absolute;
+}
+
+
+
+.AdminLanding .Content {
+    left: 165px;
+    top: 250px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32px;
+    display: inline-flex;
+}
+
+.AdminLanding .Content .HeaderCopy {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+    display: flex;
+}
+
+.AdminLanding .Content .HeaderCopy .TreeTech {
+    width: 540px
+}
+
+.AdminLanding .Content .HeaderCopy .TreeTech span:first-of-type {
+    color: #E9BC21;
+    font-size: 72px;
+    font-family: Manrope;
+    font-weight: 800;
+    line-height: 98px;
+    word-wrap: break-word;
+}
+
+.AdminLanding .Content .HeaderCopy .TreeTech span:nth-of-type(2) {
+    color: #616266;
+    font-size: 72px;
+    font-family: Manrope;
+    font-weight: 800;
+    line-height: 98px;
+    word-wrap: break-word;
+}
+
+.AdminLanding .Content .HeaderCopy .TreeTech span:nth-of-type(3) {
+    color: #18191F;
+    font-size: 72px;
+    font-family: Manrope;
+    font-weight: 800;
+    line-height: 98px;
+    word-wrap: break-word;
+}
+
+.AdminLanding .Content .HeaderCopy .TreeTech span:nth-of-type(4) {
+    color: #E9BC21;
+    font-size: 72px;
+    font-family: Manrope;
+    font-weight: 800;
+    line-height: 98px;
+    word-wrap: break-word;
+}
+
+.AdminLanding .Content .HeaderCopy .TreeTech span:last-of-type {
+    color: #616266;
+    font-size: 72px;
+    font-family: Manrope;
+    font-weight: 800;
+    line-height: 98px;
+    word-wrap: break-word;
+}
+
+.AdminLanding .Content .HeaderCopy .Tree {
+    width: 540px;
+}
+
+.AdminLanding .Content .HeaderCopy .Tree span:first-of-type {
+    color: #888888;
+    font-size: 20px;
+    font-family: Manrope;
+    font-weight: 800;
+    line-height: 32px;
+    word-wrap: break-word;
+}
+
+.AdminLanding .Content .HeaderCopy .Tree span:last-of-type {
+    color: #18191F;
+    font-size: 16px;
+    font-family: Manrope;
+    font-weight: 800;
+    line-height: 32px;
+    word-wrap: break-word
+}
+
+
+.AdminLanding .MockCreative {
+    width: 524px;
+    height: 400px;
+    left: 56%;
+    top: 50px;
+    position: absolute;
+}
+
+.AdminLanding .MockCreative .MobileMockup .Mockup {
+    width: 250px;
+    height: 500px;
+    left: 75px;
+    top: 80px;
+    position: absolute;
+}
+
+.AdminLanding .MockCreative .MobileMockup .Mockup .Img31 {
+    width: 200px;
+    height: 244px;
+    left: 25px;
+    top: 45px;
+    position: absolute;
+    z-index: 1;
+    filter: drop-shadow(2px 2px 2px white);
+}
+
+.AdminLanding .MockCreative .Card1 {
+    width: 280px;
+    height: 72px;
+    padding: 12px;
+    left: 0px;
+    top: 16px;
+    position: relative;
+    background: white;
+    box-shadow: -2px 4px 45px rgba(0, 0, 0, 0.13);
+    border-radius: 8px;
+    overflow: hidden;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    display: inline-flex;
+}
+
+
+.AdminLanding .MockCreative .Card1 .User3 {
+    width: 48px;
+    height: 48px;
+    border-radius: 9999px;
+}
+
+.AdminLanding .MockCreative .Card1 .Content {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: inline-flex;
+    position: absolute;
+    top: 25px;
+    left: 75px;
+}
+
+.AdminLanding .MockCreative .Card1 .Content .Heading {
+    width: 72px;
+    height: 16px;
+    background: #F4F5F7;
+    border-radius: 100px;
+}
+
+.AdminLanding .MockCreative .Card1 .Content .Paragraph {
+    width: 196px;
+    height: 8px;
+    background: #F4F5F7;
+    border-radius: 8px;
+}
+
+.AdminLanding .MockCreative .Card2 {
+    width: 280px;
+    height: 72px;
+    padding: 12px;
+    left: 244px;
+    top: 244px;
+    position: relative;
+    background: white;
+    box-shadow: -2px 4px 45px rgba(0, 0, 0, 0.13);
+    border-radius: 8px;
+    overflow: hidden;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    display: inline-flex;
+    z-index: 2;
+}
+
+@media (max-width: 767px) {
+    .AdminLanding .MockCreative .Card2{
+        left: 60px;
+    }
+}
+
+.AdminLanding .MockCreative .Card2 .UserImage {
+    width: 48px;
+    height: 48px;
+    border-radius: 9999px;
+}
+
+.AdminLanding .MockCreative .Card2 .Content {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: inline-flex;
+    position: absolute;
+    top: 25px;
+    left: 75px;
+}
+
+.AdminLanding .MockCreative .Card2 .Content .Header {
+    width: 72px;
+    height: 16px;
+    background: #F4F5F7;
+    border-radius: 100px;
+}
+
+.AdminLanding .MockCreative .Card2 .Content .Paragraph {
+    width: 196px;
+    height: 8px;
+    background: #F4F5F7;
+    border-radius: 8px;
+}
+/* 
